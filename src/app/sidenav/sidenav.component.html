@@ -1,0 +1,15 @@
+<!-- ZADANIE 2 -->
+<!-- W szablonie bocznej nawigacji (SidenavComponent) dla każdego elementu listy kategorii (categories) wyświetl nazwę kategorii -->
+
+<div class="sidenav-container">
+    <span class="sidenav-icon material-icons">
+        arrow_forward_ios
+    </span>
+    <nav class="sidenav-nav">
+        <ul class="menu-items">
+            <li class="menu-item" *ngFor="let category of categories">
+                <a class="menu-link" [routerLink]="['/category', category.id]">nazwa</a>
+            </li>
+        </ul>
+    </nav>
+</div>

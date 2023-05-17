@@ -1,0 +1,12 @@
+<div class="cart-container">
+    <div class="cart-items">
+        <div class="cart-item" *ngFor="let item of items">
+            <span class="img-placeholder"></span>
+            <div class="cart-item-details">
+                <p>{{item.name}}</p>
+                <p>{{item.price}}</p>
+            </div>
+        </div>
+    </div>
+    <button>Zobacz koszyk</button>
+</div>

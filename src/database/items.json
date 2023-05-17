@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Spodnie slim",
+    "price": 99.99,
+    "categoryId": 1
+  },
+  {
+    "id": 2,
+    "name": "Spodnie chino",
+    "price": 149.99,
+    "categoryId": 1
+  },
+  {
+    "id": 3,
+    "name": "Spodnie jogger",
+    "price": 119.99,
+    "categoryId": 1
+  },
+  {
+    "id": 4,
+    "name": "Spodnie lniane",
+    "price": 139.99,
+    "categoryId": 1
+  },
+  {
+    "id": 5,
+    "name": "Spodnie dresowe",
+    "price": 89.99,
+    "categoryId": 1
+  },
+  {
+    "id": 6,
+    "name": "Koszula oversize",
+    "price": 119.99,
+    "categoryId": 2
+  },
+  {
+    "id": 7,
+    "name": "Koszula regular",
+    "price": 99.99,
+    "categoryId": 2
+  },
+  {
+    "id": 8,
+    "name": "Koszula lniana",
+    "price": 149.99,
+    "categoryId": 2
+  },
+  {
+    "id": 9,
+    "name": "Sweter z lnem",
+    "price": 149.99,
+    "categoryId": 3
+  },
+  {
+    "id": 10,
+    "name": "Bawełniany sweter",
+    "price": 119.99,
+    "categoryId": 3
+  },
+  {
+    "id": 10,
+    "name": "Sweter oversize",
+    "price": 119.99,
+    "categoryId": 3
+  },
+  {
+    "id": 11,
+    "name": "Sweter z wiskozy",
+    "price": 99.99,
+    "categoryId": 3
+  }
+]

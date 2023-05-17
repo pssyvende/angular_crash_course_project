@@ -1,0 +1,21 @@
+.item-container {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    cursor: pointer;
+}
+
+.item-container:hover .img-placeholder {
+    background-color: rgb(225, 225, 225);
+}
+
+.item-container .img-placeholder {
+    height: 400px;
+    background-color: lightgray;
+}
+.item-details h4 {
+    margin-bottom: 0;
+}
+.item-details p {
+    margin: 0;
+}

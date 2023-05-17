@@ -1,0 +1,8 @@
+:root {
+    --primary-color: #008084;
+    --secondary-color: #f17b00;
+    --light-color: #e4f1f2;
+    --white-color: white;
+    --animation-duration: 0.5s;
+    --sidenav-width: 48px;
+}

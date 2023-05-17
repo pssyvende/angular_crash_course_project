@@ -1,0 +1,38 @@
+.home-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+}
+
+.home-text {
+    width: 65%;
+}
+
+.home-break {
+    width: 24px;
+    border-top: 1px solid var(--secondary-color)
+}
+
+.color-secondary {
+    color: var(--secondary-color);
+    margin-bottom: 0;
+}
+
+.home-text ol {
+    text-align: start;
+    padding: 0;
+}
+.home-list {
+    display: flex;
+    justify-content: center;
+}
+.home-list li {
+    padding-bottom: 12px;
+}
+.text-end{
+    text-align: end;
+}
+
+
+

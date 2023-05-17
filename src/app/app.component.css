@@ -1,0 +1,15 @@
+.site-container {
+    display: grid;
+    grid-template-columns: var(--sidenav-width) auto;
+    height: 100vh;
+    transition: var(--animation-duration);
+}
+
+.site-container:has(.sidenav-container:hover) {
+    --sidenav-width: 30%;
+}
+
+.cart:has(.cart-button:hover) .cart-container,
+.cart:has(.cart-container:hover) .cart-container {
+  display: block;
+}

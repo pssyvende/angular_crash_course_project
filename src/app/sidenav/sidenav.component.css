@@ -1,0 +1,44 @@
+.sidenav-container {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  padding-top: 2rem;
+  box-sizing: border-box;
+
+  background-color: var(--primary-color);
+
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-items: center;
+}
+
+/* SIDENAV ICON */
+.sidenav-icon.material-icons {
+  color: var(--light-color);
+  height: 24px;
+  justify-self: end;
+  padding: 0 12px;
+  transition: transform var(--animation-duration) ease-out;
+}
+
+/* SIDENAV MENU ITEMS */
+.menu-items {
+    display: none;
+    opacity: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-item {
+    margin-top: 2rem;
+}
+.menu-item .menu-link {
+    color: var(--light-color);
+    text-decoration: none;
+}
+.menu-item:hover .menu-link {
+    color: var(--white-color);
+    font-weight: 500;
+}

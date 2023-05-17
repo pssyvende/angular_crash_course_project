@@ -1,0 +1,33 @@
+<div class="home-container">
+  <div class="home-text">
+    <p class="no-items">
+      <b>Cześć!</b><br />Właśnie przeglądasz konkursowe zadanie, będące
+      zwieńczeniem wykładu pt. "Wprowadzenie do Angulara".
+    </p>
+    <hr class="home-break" />
+    <p>
+      Zadanie konkursowe polega na uzupełnieniu kodu aplikacji przedstawionymi
+      na wykładzie elementami frameworka z zakresu komunikacji
+      międzykomponentowej i Dependency Injection.<br />Aplikacja jest fragmentem
+      sklepu internetowego, a komunikacja przebiegać będzie od menu z produktami
+      aż po elementy list produktów, które można dodać do koszyka. Kolejne elementy zadania radzimy wykonywać w kolejności ich wylistowania :)
+    </p>
+    <br/>
+    <p class="color-secondary">
+      <b>Do wykonania:</b>
+    </p>
+    <div class="home-list">
+      <ol>
+        <li>W szablonie aplikacji (AppComponent) dodaj do lewego kontenera boczną navigację (SidenavComponent) używając odpowiedniego dla komponentu <b>selektora</b></li>
+        <li>W szablonie bocznej nawigacji (SidenavComponent) <b>dla każdego elementu listy</b> kategorii (categories) <b>wyświetl nazwę kategorii</b></li>
+        <li>W szablonie produktów (ItemsComponent) <b>sprawdź, czy lista produktów jest dostępna</b> (isActive) - wyświetl listę produktów, w przeciwnym razie wyświetl parafraf z odpowiednią informacją</li>
+        <li>W szablonie produktu (ItemComponent) <b>zareaguj na kliknięcie</b> (click) w element listy. <b>Połącz z tym wydarzeniem dostępną metodę</b> (onSelectItem). Pamiętaj o podaniu jako argumentu metody identyfikatora produktu!</li>
+        <li>W wykorzystanej wcześniej metodzie (onSelectItem) <b>wyemituj nowe wydarzenie</b>. Wydarzenie powinno zawierać informację o identyfikatorze produktu.</li>
+        <li>Wyemitowane wydarzenie powinno zostać odebrane w komponencie rodzica (ItemsComponent). Po znalezieniu produktu z odpowiadającym przesłanemu numerowi identyfikatorem, <b>wykorzystaj dostępny serwis</b> (ItemsService) i <b>dodaj produkt do koszyka</b> (addToCart)</li>
+        <li>W konstruktorze serwisu (ItemsService) <b>narzuć utworzenie serwisu obsługującego koszyk</b> (CartService). W metodzie odpowiedzialnej za dodanie produktu do koszyka <b>wykorzystaj wstrzyknięty serwis</b> i dodaj produkt do koszyka (addToCart)</li>
+      </ol>
+    </div>
+    <br/>
+    <p class="text-end">Powodzenia!</p>
+  </div>
+</div>

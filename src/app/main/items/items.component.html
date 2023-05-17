@@ -1,0 +1,11 @@
+<!-- ZADANIE 3 -->
+<!-- W szablonie produktów (ItemsComponent) sprawdź, czy lista produktów jest dostępna (isActive) - wyświetl listę produktów, w przeciwnym razie wyświetl parafraf z odpowiednią informacją -->
+
+<div class="items-container">
+    <ul class="items-list" *ngIf="false; else noItems">
+        <app-item *ngFor="let item of items" [item]="item" (newItemSelectedEvent)="onSelectItem($event)"></app-item>
+    </ul>
+    <ng-template #noItems>
+        <p class="no-items">No items found. Choose another category!</p>
+    </ng-template>
+</div>

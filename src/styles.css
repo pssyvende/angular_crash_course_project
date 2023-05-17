@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Karla;
+}
+
+/* GLOBAL ANIMATIONS */
+.site-container:has(.sidenav-container:hover) .sidenav-icon.material-icons {
+  transform: rotate(-180deg);
+}
+
+.site-container:has(.sidenav-container:hover) .menu-items {
+  display: block;
+  opacity: 1;
+  animation: fadeInFromNone var(--animation-duration) ease-in forwards;
+}
+@keyframes fadeInFromNone {
+  0% {
+      display: none;
+      opacity: 0;
+  }
+
+  1% {
+      display: block;
+      opacity: 0;
+  }
+
+  100% {
+      display: block;
+      opacity: 1;
+  }
+}
+
+.cart:has(.cart-button:hover) .cart-container,
+.cart:has(.cart-container:hover) .cart-container {
+  display: block;
+}
