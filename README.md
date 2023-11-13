@@ -1,8 +1,8 @@
 # Angular Crash Course
 
-Właśnie przeglądasz konkursowe zadanie, będące zwieńczeniem wykładu pt. "Wprowadzenie do Angulara".
+Właśnie przeglądasz zadanie, będące zwieńczeniem wykładu pt. "Wprowadzenie do Angulara".
 
-Zadanie konkursowe polega na uzupełnieniu kodu aplikacji przedstawionymi na wykładzie elementami frameworka z zakresu komunikacji międzykomponentowej i Dependency Injection.
+Zadanie polega na uzupełnieniu kodu aplikacji przedstawionymi na wykładzie elementami frameworka z zakresu komunikacji międzykomponentowej i Dependency Injection.
 Aplikacja jest fragmentem sklepu internetowego, a komunikacja przebiegać będzie od menu z produktami aż po elementy list produktów, które można dodać do koszyka.
 
 
